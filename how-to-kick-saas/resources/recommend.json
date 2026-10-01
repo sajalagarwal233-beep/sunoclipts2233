@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Validate An Idea",
+    "prompts": [
+      { "text": "Validate my SaaS idea before I build anything — walk me through the book's validation process" },
+      { "text": "How do I do competition analysis for a SaaS idea the way this book prescribes?" },
+      { "text": "What does the book say validation actually costs in time and money?" },
+      { "text": "Who should I be talking to before building, according to the book?" }
+    ]
+  },
+  {
+    "title": "Plan And Cost The Build",
+    "prompts": [
+      { "text": "Estimate what my SaaS will cost to build using the book's costing process" },
+      { "text": "What build team roles does the book say I need, and what does each one do?" },
+      { "text": "Walk me through the book's development steps from concept design to launch" },
+      { "text": "Show me the book's SaaS MVP pre-development build checklist" }
+    ]
+  },
+  {
+    "title": "Price It",
+    "prompts": [
+      { "text": "How should I price my SaaS? Use the book's pricing process" },
+      { "text": "Explain MRR, ARPU, LTV, CAC and churn the way the book defines them" },
+      { "text": "What should go on my pricing page, per the book?" },
+      { "text": "What customer types does the book define, and how does each affect pricing?" }
+    ]
+  },
+  {
+    "title": "Get Users",
+    "prompts": [
+      { "text": "How do I get my first SaaS users? What does the book recommend?" },
+      { "text": "Take me through the book's keyword research and content planning steps" },
+      { "text": "What does the book say about PPC and social ad testing and retargeting?" },
+      { "text": "How should I set up lead scoring, tagging and triggers for my SaaS?" }
+    ]
+  },
+  {
+    "title": "Keep And Grow Them",
+    "prompts": [
+      { "text": "What does the book say about reducing churn and supporting SaaS customers?" },
+      { "text": "How does the book suggest building a user community?" },
+      { "text": "What growth hacks does the author actually recommend? List them by category" },
+      { "text": "Onboarding help — what does this book cover, and what is left unfinished?" }
+    ]
+  },
+  {
+    "title": "Explore The Book",
+    "prompts": [
+      { "text": "Show me the full table of contents of the How to Kick SaaS book" },
+      { "text": "Search the book for everything it says about \"pricing\"" },
+      { "text": "Which chapters of the book are unfinished or stubs?" },
+      { "text": "Who wrote this book, and what are his stated credentials?" }
+    ]
+  }
+]

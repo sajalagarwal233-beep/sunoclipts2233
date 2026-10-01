@@ -1,0 +1,6 @@
+[
+  { "id": "chapter-map", "type": "capability", "key": "Full Chapter Map", "value": "All 126 chapters of the book with plugin-relative paths, in the author's own SUMMARY.md order" },
+  { "id": "routing", "type": "capability", "key": "Section Routing", "value": "Maps any topic to the section skill that covers it" },
+  { "id": "search", "type": "capability", "key": "Book Search", "value": "kick-saas-search CLI for full-text search across every chapter" },
+  { "id": "attribution", "type": "capability", "key": "Attribution & Staleness Rules", "value": "Citing rules, unwritten-section warnings, and 2020-era data caveats" }
+]

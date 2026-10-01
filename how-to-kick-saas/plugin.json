@@ -1,0 +1,43 @@
+{
+  "name": "how-to-kick-saas",
+  "displayName": "How to Kick SaaS",
+  "version": "1.0.0",
+  "description": "The complete open-source book \"How to Kick SaaS\" by Jason M. Long, packaged as nine skills covering validation, costing, pricing, build, acquisition, activation, retention and growth, plus a local search CLI over all 126 chapters.",
+  "longDescription": "## What this is\n\nThis plugin bundles the full text of the open-source book **How to Kick SaaS** by **Jason M. Long** (JH Media Group) — *\"SaaS business building: Ideation, Validation, Costing, Pricing, Development, Marketing, Sales, Support, Traction, and Growth.\"*\n\n## What's inside\n\n| Component | Detail |\n|---|---|\n| `book/` | All **126 chapters**, verbatim, in the book's own SUMMARY.md order, plus its **40 original diagram/image assets** |\n| 9 skills | One navigation index + one working skill per book section |\n| `kick-saas-search` CLI | Zero-dependency full-text search over every chapter |\n| `saas-strategist` sub-agent | Applies the book's frameworks to a specific SaaS idea or problem |\n\n## The nine skills\n\n- **saas-book-index** — full chapter map, section routing, attribution rules\n- **saas-business-foundations** — what a SaaS is, its parts, the end-to-end process\n- **saas-validation** — proving demand, competition and buyer analysis before building\n- **saas-build-process** — scoping, costing, team roles, tooling, development lifecycle\n- **saas-pricing** — pricing metrics, models, psychology, the pricing page\n- **saas-acquisition** — SEO, content, PPC, outbound, social, automation, partnerships\n- **saas-activation** — onboarding and activation (the book's least complete section, marked as such)\n- **saas-retention-community** — support, churn, community, chatbots\n- **saas-growth-hacks** — the author's raw tactics, benchmarks and field notes\n\n## A note on the source\n\nThe author states plainly in the book that **it is not finished**, and several sections are incomplete. This package preserves that state faithfully and marks every stub rather than filling the gaps. The book's last content commit was 2020, so time-sensitive figures (costs, tool pricing, ad platforms) should be treated as historical.\n\nThis is one practitioner's opinionated experience, not verified research.\n\nSource: https://github.com/JH-Media-Group/how-to-kick-saas",
+  "author": {
+    "name": "Packaged from the open-source book by Jason M. Long (JH Media Group)",
+    "url": "https://github.com/JH-Media-Group/how-to-kick-saas"
+  },
+  "icon": "icon.svg",
+  "category": "business",
+  "tags": [
+    "saas",
+    "startup",
+    "validation",
+    "pricing",
+    "growth",
+    "marketing",
+    "product",
+    "business",
+    "book"
+  ],
+  "subAgents": [
+    {
+      "id": "saas-strategist",
+      "description": "SaaS strategy specialist grounded in the How to Kick SaaS book. Dispatch for multi-stage work: validating a SaaS idea, sizing and costing a build, setting pricing, planning acquisition channels, diagnosing churn, or any task that needs the book's frameworks applied to a specific product with a written, citation-backed answer.",
+      "tools": "inherit",
+      "timeoutSeconds": 600,
+      "skills": [
+        { "id": "saas-book-index", "mode": "systemPrompt" },
+        { "id": "saas-business-foundations", "mode": "indexed" },
+        { "id": "saas-validation", "mode": "indexed" },
+        { "id": "saas-build-process", "mode": "indexed" },
+        { "id": "saas-pricing", "mode": "indexed" },
+        { "id": "saas-acquisition", "mode": "indexed" },
+        { "id": "saas-activation", "mode": "indexed" },
+        { "id": "saas-retention-community", "mode": "indexed" },
+        { "id": "saas-growth-hacks", "mode": "indexed" }
+      ]
+    }
+  ]
+}

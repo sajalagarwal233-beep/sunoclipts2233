@@ -1,0 +1,25 @@
+{
+  "tools": [
+    {
+      "id": "kick-saas-search",
+      "displayName": "Kick SaaS Search",
+      "description": "Zero-dependency full-text search across all 126 chapters of the book \"How to Kick SaaS\" bundled with this plugin. Returns chapter paths, line numbers and optional context so an agent can locate the right chapter before reading it.",
+      "verifyArgs": ["--version"],
+      "usageExamples": [
+        "kick-saas-search \"pricing model\"",
+        "kick-saas-search \"churn\" --context 3",
+        "kick-saas-search \"lead scoring\" --files-only",
+        "kick-saas-search \"keyword research\" --section acquisition-gaining-saas-users",
+        "kick-saas-search --list",
+        "kick-saas-search \"CAC\" --json"
+      ],
+      "exposure": "all-agents",
+      "source": {
+        "type": "node-cli",
+        "entry": "clis/scripts/kick-saas-search.js",
+        "commandName": "kick-saas-search",
+        "moduleFormat": "commonjs"
+      }
+    }
+  ]
+}
